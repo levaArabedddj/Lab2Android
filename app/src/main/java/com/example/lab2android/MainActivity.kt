@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
 
         val emailIntent = Intent(Intent.ACTION_SEND).apply {
             type = "image/jpeg"
-            putExtra(Intent.EXTRA_EMAIL, arrayOf("lion2005gamer@gmail.com"))
+            putExtra(Intent.EXTRA_EMAIL, arrayOf("hodovychenko@op.edu.ua"))
             putExtra(Intent.EXTRA_SUBJECT, "ANDROID Арабаджи Лев")
             putExtra(Intent.EXTRA_TEXT, "Посилання на репозиторій до другої лабораторної роботи : https://github.com/levaArabedddj/Lab2Android")
             putExtra(Intent.EXTRA_STREAM, imageUri)
