@@ -103,7 +103,7 @@ class MainActivity : AppCompatActivity() {
             type = "image/jpeg"
             putExtra(Intent.EXTRA_EMAIL, arrayOf("lion2005gamer@gmail.com"))
             putExtra(Intent.EXTRA_SUBJECT, "ANDROID Арабаджи Лев")
-            putExtra(Intent.EXTRA_TEXT, "Посилання на репозиторій: вставте посилання")
+            putExtra(Intent.EXTRA_TEXT, "Посилання на репозиторій до другої лабораторної роботи : https://github.com/levaArabedddj/Lab2Android")
             putExtra(Intent.EXTRA_STREAM, imageUri)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)  // ✅ Додаємо права на читання
         }
